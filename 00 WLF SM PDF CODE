@@ -69,7 +69,7 @@
         
         .plant-details {
             font-size: 8pt;
-            color: #603434;
+            color: #333;
             line-height: 1.4;
         }
         
@@ -90,14 +90,32 @@
         .priority-rank {
             font-family: 'Proxima Nova', sans-serif;
             font-size: 9pt;
-            color: #603434;
+            color: #333;
             text-align: center;
-            border: 1px solid #603434;
+            border: 1px solid #333;
             padding: 4px 6px;
             border-radius: 3px;
             background: white;
             height: fit-content;
             font-weight: 500;
+        }
+        
+        .priority-high {
+            background-color: #055415;
+            color: white;
+            border-color: #055415;
+        }
+        
+        .priority-medium {
+            background-color: #2a8055;
+            color: white;
+            border-color: #2a8055;
+        }
+        
+        .priority-low {
+            background-color: #bfd5bf;
+            color: #333;
+            border-color: #bfd5bf;
         }
         
         .description {
@@ -167,857 +185,7 @@
 
     <div class="species-grid">
         <div class="common-name-section">
-            <div class="common-name">'Appalachian Joy' Flowering Dogwood</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Tree</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Larval Host, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Cornus florida 'Appalachian Joy'</div>
-        <div class="priority-rank">High</div>
-        <div class="description">Cultivar of native tree to eastern North America including Virginia's Piedmont. This small understory tree produces showy white bracts (modified leaves) surrounding tiny flowers in spring before leaves emerge. Bright red berries follow in fall. Outstanding red fall foliage. Provides food for over 100 bird species. Resistant to dogwood anthracnose disease.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">'Forest Pansy' Eastern Redbud</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Tree</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Larval Host</div>
-            </div>
-        </div>
-        <div class="scientific-name">Cercis canadensis 'Forest Pansy'</div>
-        <div class="priority-rank">High</div>
-        <div class="description">Cultivar of native eastern North American tree. This small ornamental tree produces masses of pink flowers directly on bare branches in early spring before heart-shaped purple-red leaves emerge. Leaves turn yellow in fall. Flat purple seed pods persist into winter. Flowers provide early nectar for bees. Native bees nest in hollow stems.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">'Mt Airy' Fothergilla</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Shrub</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Fothergilla major 'Mt Airy'</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native shrub to southeastern United States mountains. This 5-6 foot deciduous shrub produces fragrant white bottlebrush flowers before leaves emerge in spring. No petals - showy parts are actually stamens (pollen-producing structures). Outstanding fall color ranges from yellow to orange to red. Attracts bees and beneficial insects. Prefers acidic soils.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">'Shamrock' Inkberry</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Shrub</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Ilex glabra 'Shamrock'</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Compact cultivar of native evergreen shrub to eastern North America including Virginia's Coastal Plain. This dense, rounded shrub grows 3-4 feet tall with small, dark green oval leaves. Small white flowers produce black berries on female plants. Berries important winter food for birds. Salt tolerant. Requires acidic, moist soils. Excellent foundation plant.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">American Elderberry</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Shrub</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Larval Host</div>
-            </div>
-        </div>
-        <div class="scientific-name">Sambucus canadensis</div>
-        <div class="priority-rank">High</div>
-        <div class="description">Native shrub to eastern North America including Virginia. This fast-growing shrub reaches 5-12 feet tall with large compound leaves and flat-topped clusters of tiny white flowers in summer. Dark purple berries follow flowers. Berries important food source for over 100 bird species. Forms colonies through suckers. Tolerates wet soils and part shade.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">American Senna</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Larval Host</div>
-            </div>
-        </div>
-        <div class="scientific-name">Senna hebecarpa</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native to eastern North America including Virginia's Piedmont. This bushy perennial legume grows 3-6 feet tall with bright yellow flowers in summer followed by distinctive flat, brown seed pods. Compound leaves (multiple leaflets on one stem) fold at night. Fixes nitrogen in soil. Host plant for sulphur butterfly caterpillars. Self-seeds readily.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">American Sycamore</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Tree</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Platanus occidentalis</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native tree to eastern North America including Virginia's Piedmont. This massive tree can reach 75-100 feet tall with distinctive mottled bark that peels to reveal white, green, and brown patches. Large maple-like leaves turn brown in fall. Round seed balls persist into winter. Provides nesting sites for cavity-nesting birds. Tolerates urban conditions well.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Blue Wild Indigo</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Larval Host</div>
-            </div>
-        </div>
-        <div class="scientific-name">Baptisia australis</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This sturdy legume grows 3-4 feet tall with blue-green compound leaves and spikes of blue pea-like flowers in late spring. Fixes nitrogen in soil through root bacteria. Black seed pods rattle when mature. Extremely long-lived once established. Attracts bees and provides host plant for some butterfly larvae.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Brown Eyed Susan</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Annual</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Rudbeckia triloba</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native annual/biennial to eastern North America including Virginia's Piedmont. This cheerful wildflower grows 2-5 feet tall with numerous small yellow daisy-like flowers having dark brown centers from summer through fall. Self-seeds prolifically, creating naturalized patches. Attracts butterflies, bees, and goldfinches eat seeds. Tolerates drought and poor soils excellently.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Butterflyweed</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar, Larval Host</div>
-            </div>
-        </div>
-        <div class="scientific-name">Asclepias tuberosa</div>
-        <div class="priority-rank">High</div>
-        <div class="description">Native to Virginia and found in every county, this drought-tolerant perennial produces brilliant orange flower clusters from June to September. Unlike other milkweeds, it has clear (not milky) sap. Spindle-shaped seed pods contain silky-haired seeds that disperse by wind. Essential nectar source for butterflies, bees, and hummingbirds; host plant for monarch caterpillars.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Carolina Rose</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Shrub</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Rosa carolina</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native shrub to eastern North America including Virginia's Piedmont. This low-growing rose reaches 3-6 feet tall with typical rose compound leaves and fragrant pink five-petaled flowers in summer. Red rose hips (fruits) follow flowers and persist into winter. Spreads through underground suckers to form thickets. Important food source for birds. Thorny stems provide nesting sites.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Cherokee Sedge</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Graminoid</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Carex cherokeensis</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native sedge to southeastern United States including Virginia's Piedmont. This clumping sedge grows 1-2 feet tall with narrow leaves and small brownish flower spikes. Triangular stems distinguish sedges from grasses. Tolerates both sun and shade. Forms attractive tufts that provide texture in native plant gardens. Seeds provide food for wildlife.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Common Milkweed</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar, Larval Host</div>
-            </div>
-        </div>
-        <div class="scientific-name">Asclepias syriaca</div>
-        <div class="priority-rank">High</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This tall milkweed grows 3-6 feet with broad oval leaves and large clusters of fragrant pink flowers in summer. Milky sap is toxic to most animals. Large seed pods split to release silky-haired seeds. Primary host plant for monarch butterfly caterpillars. Spreads through underground rhizomes.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Common Ninebark</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Shrub</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Physocarpus opulifolius</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native shrub to eastern North America, though more common in northern regions than Virginia's Piedmont. This arching shrub grows 5-10 feet tall with distinctive maple-like leaves and dome-shaped clusters of small white flowers in late spring. Peeling bark provides winter interest. Red seed pods follow flowers. Attracts beneficial insects and birds.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Coral Honeysuckle</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Vine</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Lonicera sempervirens</div>
-        <div class="priority-rank">High</div>
-        <div class="description">Native vine to southeastern United States including Virginia's Piedmont. This well-behaved climber reaches 10-20 feet with trumpet-shaped coral-red flowers from spring through fall. Blue-green leaves may be evergreen in mild winters. Red berries follow flowers. Excellent hummingbird plant. Non-invasive alternative to exotic honeysuckles. Drought tolerant once established.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Dense Blazing Star</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Liatris spicata</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This striking wildflower produces tall spikes of purple fuzzy flowers that bloom from top to bottom (unusual pattern) in late summer. Grows 2-5 feet from underground corms (bulb-like structures). Outstanding butterfly magnet. Flowers have grass-like fragrance. Extremely drought tolerant once established.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Eastern Prickly Pear</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Opuntia humifusa Raf.</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native cactus to eastern North America including Virginia's Piedmont. This low-growing succulent forms clumps with flattened, pad-like stems armed with small spines. Bright yellow flowers in summer followed by red fruits. Extremely drought tolerant and adapted to sandy, poor soils. Provides nectar for bees and shelter for small wildlife.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Emerald Green Arborvitae</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Tree</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Thuja occidentalis 'Smaragd'</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Cultivar of native North American conifer. This narrow, pyramid-shaped evergreen grows 12-14 feet tall with dense, bright green scale-like foliage that retains color year-round. Produces small cones. Deer resistant. Provides year-round shelter for birds. Note: Species native to northern regions, not specifically Virginia's Piedmont, but widely adapted.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Fox Sedge</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Graminoid</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Carex vulpinoidea</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native sedge to eastern North America including Virginia. This clumping grass-like plant grows 2-3 feet tall with narrow leaves and distinctive spiky brown flower clusters at stem tips. Triangular stems distinguish sedges from true grasses. Thrives in wet to moist soils. Seeds provide food for waterfowl and songbirds. Important component of wetland ecosystems.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Foxglove Beardtongue</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Winter to Early Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Penstemon digitalis</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native to central and eastern North America, this perennial grows 2-4 feet tall with erect spikes of tubular white flowers in late spring and early summer. Flowers have distinctive purple guidelines inside that direct pollinators to nectar. Named "beardtongue" for the fuzzy sterile stamen protruding from each bloom. Excellent pollinator plant attracting bees, butterflies, and hummingbirds.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Golden Ragwort</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Packera aurea</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This early-blooming wildflower grows 1-3 feet tall with heart-shaped basal leaves and clusters of bright yellow daisy-like flowers in spring. Forms colonies through underground rhizomes. Provides early nectar when few other flowers are available. Tolerates wet soils and partial shade well.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Gray Goldenrod</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Solidago nemoralis</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native perennial to North America including Virginia's Piedmont. This drought-tolerant wildflower grows 1-3 feet tall with gray-green hairy leaves and arching sprays of bright yellow flowers in fall. Often grows in poor, sandy soils where few other plants thrive. Important late-season nectar source for butterflies and bees. Seeds eaten by birds.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Gray's Sedge</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Graminoid</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Carex grayi</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native sedge to eastern North America including Virginia. This distinctive sedge grows 2-3 feet tall with broad leaves and produces unique star-shaped seed heads that radiate outward like medieval maces. Triangular stems typical of sedges. Prefers moist to wet soils. Seed heads provide architectural winter interest and food for wildlife.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Green Milkweed</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar, Larval Host</div>
-            </div>
-        </div>
-        <div class="scientific-name">Asclepias viridiflora</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native perennial to North America including Virginia's Piedmont. This drought-tolerant milkweed grows 1-2 feet tall with narrow leaves and clusters of small greenish flowers that lack the showy appearance of other milkweeds. Despite modest flowers, still provides nectar for butterflies and serves as host plant for monarch caterpillars. Extremely tolerant of poor, sandy soils.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Hairy Ruellia</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Ruellia humilis</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This low-growing wildflower reaches 6-24 inches tall with hairy stems and leaves. Purple funnel-shaped flowers bloom from summer into fall. Each flower lasts only one day. Tolerates drought and poor soils. Self-seeds readily. Also called wild petunia though unrelated to true petunias.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Hearts-a-Burstin'</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Shrub</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed</div>
-            </div>
-        </div>
-        <div class="scientific-name">Euonymus americanus</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native shrub to eastern North America including Virginia's Piedmont. This understory shrub grows 4-6 feet tall with simple oval leaves and inconspicuous greenish flowers in spring. Distinctive warty, pink-red seed capsules split open in fall to reveal bright red seeds suspended on threads. Also called strawberry bush. Provides food for birds and colorful fall display.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Hemp Dogbane</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Apocynum cannabinum</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native perennial to North America including Virginia's Piedmont. This 2-4 foot plant has milky sap and small clusters of white bell-shaped flowers in summer followed by long, narrow seed pods. Historic source of fiber for rope-making. Leaves turn bright yellow in fall. Attracts bees and butterflies. Spreads through underground rhizomes. Tolerates poor, dry soils.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Hoary Mountain Mint</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Pycnanthemum incanum</div>
-        <div class="priority-rank">High</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This aromatic wildflower grows 2-4 feet tall with dense clusters of tiny white flowers surrounded by silvery-white bracts in summer. Leaves covered in fine white hairs give frosted appearance. Strong minty fragrance when crushed. Exceptional pollinator plant attracting dozens of beneficial insect species.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Hollow Joe Pye Weed</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Eutrochium fistulosum</div>
-        <div class="priority-rank">High</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This tall wildflower reaches 4-8 feet with whorled leaves (arranged in circles around stem) and dome-shaped clusters of pink-purple flowers in late summer. Hollow stems distinguish it from solid-stemmed relatives. Outstanding butterfly magnet, especially for monarchs and swallowtails. Prefers moist soils.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Indiangrass</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Graminoid</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Sorghastrum nutans</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native prairie grass to North America including Virginia's Piedmont. This warm-season bunchgrass grows 4-8 feet tall with distinctive bronze-colored feathery seed heads in fall. Blue-green summer foliage turns orange-yellow in autumn. Important component of native grasslands. Seeds provide food for birds. Extremely drought tolerant once established. Provides nesting habitat for grassland birds.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Little Bluestem</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Graminoid</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Schizachyrium scoparium</div>
-        <div class="priority-rank">High</div>
-        <div class="description">Native bunchgrass to North America including Virginia's Piedmont. This warm-season grass grows 2-4 feet tall with blue-green summer foliage that turns brilliant orange-red in fall. Produces feathery seed heads with twisted awns (bristles). Extremely drought tolerant and adapted to poor soils. Provides nesting habitat and seeds for birds. Key component of native grassland ecosystems.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Moss Phlox</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Phlox subulata</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont mountains. This low-growing groundcover forms dense mats with needle-like leaves and masses of pink, purple, or white five-petaled flowers in spring. Excellent for rock gardens and slopes. Spreads to form colorful carpets. Drought tolerant once established. Attracts butterflies and hummingbirds.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Narrow Blue-Eyed Grass</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Sisyrinchium angustifolium</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. Despite its name, this is actually in the iris family, not grass family. Grows 6-18 inches tall with narrow, grass-like leaves and small blue six-petaled flowers with yellow centers in late spring. Forms small clumps. Each flower lasts only one day but many buds ensure continuous bloom.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Northern Blue Flag Iris</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Iris versicolor</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native perennial to eastern North America, primarily northern regions. May not be native to Virginia's Piedmont specifically. This wetland iris grows 2-3 feet tall with sword-shaped leaves and violet-blue flowers with yellow markings in late spring. Requires consistently moist to wet soils. Attracts bees and hummingbirds. Forms colonies through creeping rhizomes.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Northern Bush-Honeysuckle</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Shrub</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Diervilla lonicera</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native shrub to eastern North America including Virginia's mountains. This low-growing shrub reaches 2-4 feet tall with opposite leaves and small yellow tubular flowers in summer. Related to honeysuckle but lacks climbing habit. Forms colonies through underground rhizomes. Provides nectar for hummingbirds and butterflies. Tolerates shade and poor soils well.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Purple Coneflower</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Echinacea purpurea</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">This herbaceous perennial grows 2-4 feet tall with distinctive purple-pink petals surrounding prominent dark brown cone-shaped centers. Blooms from summer through fall with long-lasting flowers. Extremely drought tolerant once established and adaptable to various soil conditions. Provides excellent nectar for bees and butterflies. Goldfinches love eating the seeds from spent flower heads.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Rattlesnake Master</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Eryngium yuccifolium</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This distinctive wildflower grows 2-4 feet tall with sword-like leaves resembling yucca and unique white globe-shaped flower heads in summer. Flowers consist of tiny individual blooms packed together. Extremely drought tolerant. Attracts diverse beneficial insects including native bees and wasps.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Rose Coreopsis</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Coreopsis rosea</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native perennial to eastern North America, primarily coastal regions. May not be native specifically to Virginia's Piedmont. This low-growing wildflower produces pink daisy-like flowers from summer through fall. Spreads by underground rhizomes to form colonies. Prefers moist to wet soils. Attracts butterflies and beneficial insects. Requires consistent moisture unlike other drought-tolerant coreopsis species.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Shrubby St. John's Wort</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Shrub</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Hypericum prolificum</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native shrub to eastern North America including Virginia's Piedmont. This dense, rounded shrub grows 2-4 feet tall with small oval leaves and bright yellow five-petaled flowers from summer into fall. Numerous prominent stamens give flowers fluffy appearance. Produces small seed capsules. Attracts bees and butterflies. Extremely drought tolerant once established.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Smooth Sumac</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Shrub</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
-            </div>
-        </div>
-        <div class="scientific-name">Rhus glabra</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native shrub throughout eastern North America including Virginia. Forms colonies 6-15 feet tall through underground suckers (shoots from roots). Compound leaves turn brilliant red-orange in fall. Dense clusters of small greenish flowers produce red fuzzy berry clusters loved by birds. Male and female flowers on separate plants. Excellent erosion control on slopes.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Stiff Goldenrod</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Solidago rigida</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native perennial to North America, primarily Great Plains. May not be native specifically to Virginia's Piedmont. This drought-tolerant wildflower grows 2-5 feet tall with broad, rough leaves and large flat-topped clusters of yellow flowers in fall. More robust than other goldenrods. Important late-season pollinator plant. Extremely tolerant of poor, dry soils.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Tall Thimbleweed</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed</div>
-            </div>
-        </div>
-        <div class="scientific-name">Anemone virginiana</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This woodland wildflower grows 2-3 feet tall with deeply divided leaves and small white flowers in summer followed by distinctive thimble-shaped seed heads. Wind-pollinated flowers lack showy petals. Spreads through underground rhizomes. Prefers partial shade and moist, rich soils.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Threadleaf Coreopsis</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Coreopsis verticillata</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This drought-tolerant wildflower grows 1-3 feet tall with finely divided, thread-like leaves and bright yellow daisy flowers from summer through fall. Forms spreading clumps. Deadheading encourages continued blooming. Attracts butterflies and beneficial insects. Self-seeds moderately in suitable conditions.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Upland Ironweed</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Vernonia glauca</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This tall wildflower grows 3-6 feet with lance-shaped leaves and flat-topped clusters of purple flowers in late summer. Flowers consist entirely of disc florets (no petals). Seeds have fluffy white bristles for wind dispersal. Outstanding late-season butterfly plant. Tolerates drought once established.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Virginia Mountain Mint</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Pycnanthemum virginianum</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native to eastern North America including Virginia. This spreading perennial reaches 2-3 feet tall with dense clusters of tiny white flowers surrounded by silvery-white bracts (modified leaves) in summer. Leaves release strong minty fragrance when crushed. Outstanding pollinator plant attracting dozens of bee and butterfly species. Forms colonies through underground rhizomes (horizontal stems).</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">White Fringetree</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Tree</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Chionanthus virginicus</div>
-        <div class="priority-rank">High</div>
-        <div class="description">Native small tree to southeastern United States including Virginia's Piedmont. Grows 12-20 feet tall with fragrant, drooping clusters of white flowers with thread-like petals in late spring. Male and female flowers on separate trees; females produce dark blue fruits if pollinated. Yellow fall color. Provides nectar for bees and butterflies.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">White Meadowsweet</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Shrub</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Spiraea alba</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native shrub to eastern North America including Virginia. This 3-6 foot deciduous shrub produces dense, pyramid-shaped clusters of tiny white flowers at branch tips in summer. Simple lance-shaped leaves with toothed edges. Forms colonies through underground runners. Attracts numerous beneficial insects and small butterflies. Tolerates wet soils and flooding.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Wild Bergamot</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Monarda fistulosa</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native wildflower throughout eastern North America including Virginia's Piedmont region. This aromatic perennial grows 2-4 feet tall with clusters of lavender-pink tubular flowers in summer. Leaves have distinctive mint family fragrance when crushed. Excellent nectar source for bees, butterflies, and hummingbirds. Also called bee balm. Self-seeds readily in suitable conditions.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Wild Quinine</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
-                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
-                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Parthenium integrifolium</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native perennial to eastern North America including Virginia's Piedmont. This sturdy wildflower grows 2-5 feet tall with broad, coarse leaves and flat-topped clusters of small white flowers in summer. Flowers lack showy petals - white parts are actually bracts (modified leaves). Extremely drought tolerant. Attracts numerous beneficial insects and provides seeds for birds.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Wild Strawberry</div>
-            <div class="plant-details">
-                <div class="detail-line"><strong>Type:</strong> Forb</div>
-                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
-                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
-                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
-                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
-                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
-            </div>
-        </div>
-        <div class="scientific-name">Fragaria virginiana</div>
-        <div class="priority-rank">Low</div>
-        <div class="description">Native groundcover to eastern North America including Virginia's Piedmont. This low-growing perennial spreads by runners to form colonies. Small white five-petaled flowers in spring produce tiny red berries. Three-leaflet compound leaves turn reddish in fall. Fruits eaten by birds and small mammals. Excellent groundcover for shady areas.</div>
-    </div>
-
-    <div class="species-grid">
-        <div class="common-name-section">
-            <div class="common-name">Yellow Buckeye</div>
+            <div class="common-name">1. Yellow Buckeye</div>
             <div class="plant-details">
                 <div class="detail-line"><strong>Type:</strong> Tree</div>
                 <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
@@ -1028,12 +196,862 @@
             </div>
         </div>
         <div class="scientific-name">Aesculus flava</div>
-        <div class="priority-rank">Medium</div>
-        <div class="description">Native tree to southeastern United States including Virginia's mountains and Piedmont. Large tree reaching 60-75 feet with distinctive compound leaves (5-7 leaflets). Produces upright clusters of yellow flowers in spring followed by smooth brown nuts in fall. Excellent shade tree with yellow fall color. Flowers attract hummingbirds and butterflies. Nuts eaten by wildlife.</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> A large, deciduous tree or shrub reaching 50–75 feet, with stout branches and green foliage. Red and yellow flowers bloom in spring, attracting butterflies and hummingbirds, followed by brown fruits. Thrives in sun to partial shade with even moisture and well-drained soils. Tolerant of heat, humidity, and deer. Provides striking fall color and pollinator value, making it ideal for southeastern U.S. forests and large gardens. Sources: Lady Bird Johnson Wildflower Center; Plant Lust </div>
     </div>
 
-    <div class="count">
-        <strong>Total Species: 51</strong>
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">2. Tall Thimbleweed</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed</div>
+            </div>
+        </div>
+        <div class="scientific-name">Anemone virginiana</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to the central and eastern United States, this perennial grows 1-3 feet tall and 1-2 feet wide. It prefers average, well-drained, sandy-humusy soils in sun to shade and is drought tolerant once established. Its showy, white, spring-blooming flowers produce thimble-shaped seed heads. This plant is resistant to deer, rabbits, and Verticillium wilt (a fungal disease that causes wilting). Sources: Plant Lust; Missouri Botanical Garden</div>
     </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">3. Hemp Dogbane</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Apocynum cannabinum</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to northeastern United States and Canada, this 2–4-foot perennial herb has stiff, upright stems with lance-shaped leaves. Tiny white to green summer flowers attract butterflies, and fibrous stems were historically used for rope. Thrives in dry, well-drained soils in full sun and can naturalize aggressively, making it ideal for wild or butterfly gardens. Sources: Missouri Botanical Garden; Lady Bird Johnson Wildflower Center </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">4. Common Milkweed</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar, Larval Host</div>
+            </div>
+        </div>
+        <div class="scientific-name">Asclepias syriaca</div>
+        <div class="priority-rank priority-high">High</div>
+        <div class="description">This 3-4 foot tall perennial is native to eastern North America. It thrives in full sun and dry, well-drained soils, showing excellent drought tolerance. From June to August, it produces fragrant, pinkish-purple flowers that attract numerous pollinators. It is an essential host plant for monarch butterfly caterpillars. Sources: Plant Lust; Missouri Botanical Garden</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">5. Butterflyweed</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar, Larval Host</div>
+            </div>
+        </div>
+        <div class="scientific-name">Asclepias tuberosa</div>
+        <div class="priority-rank priority-high">High</div>
+        <div class="description"> Native to the eastern and southern United States, this tuberous-rooted perennial reaches 1-2.5 feet tall and 1-1.5 feet wide with narrow, lance-shaped leaves and upright to reclining hairy stems. Prefers average, dry to medium, well-drained soils in full sun and excels in poor, dry conditions with excellent drought tolerance. Produces bright orange to yellow-orange flower clusters from June through August followed by spindle-shaped seed pods that split open to release silky-tailed seeds. Serves as essential larval host for monarch butterfly caterpillars while attracting hummingbirds, butterflies, and other pollinators with its nectar-rich flowers.Sources: Missouri Botanical Garden; Plant Lust</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">6. Green Milkweed</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar, Larval Host</div>
+            </div>
+        </div>
+        <div class="scientific-name">Asclepias viridiflora</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description">Native to central and eastern North America, this erect, herbaceous perennial reaches 1–2 feet tall with narrow, opposite leaves. Prefers dry to medium, well-drained soils in full sun to part shade and tolerates poor soils and drought once established. Produces small, greenish-white to pale yellow clustered flowers from June through August, attracting butterflies, bees, and other pollinators. Sources: Missouri Botanical Garden; Plant Lust</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">7. Blue Wild Indigo</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Larval Host</div>
+            </div>
+        </div>
+        <div class="scientific-name">Baptisia australis</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to the eastern United States, this slow-growing herbaceous perennial reaches 3-4 feet tall and wide with clover-like, trifoliate, bluish-green leaves. Prefers average, dry to medium, well-drained soil in full sun to part shade and tolerates drought, poor soils, and clay. Produces showy spikes of indigo-blue, lupine-like flowers in May-June followed by inflated seed pods that turn charcoal black when ripe. Develops deep, extensive root systems over time and should not be disturbed once established. Attracts butterflies and bees while offering excellent deer resistance and heat tolerance.Sources: Missouri Botanical Garden; Plant Lust</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">8. Cherokee Sedge</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Graminoid</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Carex cherokeensis</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to the southeastern United States, this slowly-spreading sedge forms attractive clumps 6-12 inches tall and up to 4 feet wide with fine-textured, narrow, grass-like, deep green evergreen leaves. Prefers medium to wet soils in full sun to part shade and thrives in moist conditions while tolerating average garden soils. Produces insignificant greenish-white flowers in April-June followed by wheat-like seed spikes in autumn. Offers excellent heat tolerance, verticillium wilt resistance (fungal disease affecting plant vascular system), and deer resistance while attracting birds with its seeds.Sources: Missouri Botanical Garden; Plant Lust </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">9. Gray's Sedge</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Graminoid</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Carex grayi</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to eastern North America, this perennial sedge reaches 2-3 feet tall and 1.5-2 feet wide with grass-like, semi-evergreen leaves up to 0.5 inches wide. Prefers moist, fertile soil in full sun to part shade and thrives at or near water with medium to wet moisture conditions. Produces distinctive greenish-yellow to brown seed heads that look like spiked clubs from May-October, remaining attractive through winter and adding interest when shadows reflect on snow. Sharp-edged stems distinguish sedges from round rushes, while the showy seed heads make excellent fresh or dried arrangements and provide winter interest near water gardens. Sources: Lady Bird Johnson Wildflower Center; Missouri Botanical Garden</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">10. Fox Sedge</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Graminoid</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Carex vulpinoidea</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to North America, this semi-evergreen sedge forms clumps 1-3 feet tall and 1-3 feet wide with narrow, grass-like leaf blades and sharp-edged stems. Prefers damp to very wet soils in full sun to part shade and excels in standing water to even moisture conditions, tolerating average, clay, and gritty soils. Produces attractive seedheads that spray out from the center of the clump resembling a fox's tail in May-July, though they are short-lived. Provides food and shelter for invertebrates, songbirds, and waterfowl including mallards while offering excellent deer resistance and verticillium wilt resistance, making it ideal for rain gardens and bioretention areas. Sources: Missouri Botanical Garden; Plant Lust </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">11. Eastern Redbud 'Forest Pansy'</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Tree</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Larval Host</div>
+            </div>
+        </div>
+        <div class="scientific-name">Cercis canadensis 'Forest Pansy'</div>
+        <div class="priority-rank priority-high">High</div>
+        <div class="description"> Native to eastern and central North America, this fast-growing cultivar reaches 20-30 feet tall with a slightly larger spread and rounded crown, preferring medium moisture, well-drained soils in full sun to part shade. Features stunning rosy-pink pea-like flowers blooming profusely on bare branches in early spring before heart-shaped burgundy foliage emerges, turning variable fall colors of red, purple, orange and yellow. Attracts birds and hummingbirds with early-season nectar, while seeds and flower buds provide food for songbirds. Sources: Missouri Botanical Garden; Plant Lust </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">12. White Fringetree</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Tree</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Chionanthus virginicus</div>
+        <div class="priority-rank priority-high">High</div>
+        <div class="description"> Native to Virginia and the eastern United States, this deciduous shrub or small tree grows 12–20 feet tall with a rounded, spreading habit. In late spring, airy clusters of creamy white, fragrant flowers bloom, followed by dark blue-black fruits that feed birds and wildlife. Preferring moist, fertile soils in sun to part shade, it adds seasonal interest with green foliage that turns yellow in autumn. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">13. Flowering Dogwood 'Appalachian Joy'</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Tree</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Larval Host, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Cornus florida 'Appalachian Joy'</div>
+        <div class="priority-rank priority-high">High</div>
+        <div class="description"> Native to Virginia and the southeastern United States, this slow to medium-growing cultivar reaches 15-20 feet tall and wide with a rounded shape and prefers acidic, well-drained, moist soil. Produces white spring blooms with supernumerary bracts (extra petals creating up to 8 petals per flower), delivering more abundant displays. Bred for superior disease resistance to powdery mildew (fungal disease-causing white coating on leaves). Attracts Spring Azure butterflies, Cecropia Silk moths, and specialized native bees, and the bright red berries attract birds. Sources: Arbor Day Foundation; US Patent USPP18238P3 </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">14. Rose Coreopsis</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Coreopsis rosea</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to the eastern U.S., this perennial grows 1-2 feet tall and 1.5-2.5 feet wide. The only moisture-loving Coreopsis, it prefers consistently moist, well-drained soil in full sun. The profuse, 1-inch, rose-pink, yellow-centered flowers bloom from mid-summer to fall, attracting bees, birds, and butterflies. It is resistant to deer, heat, and humidity. Sources: Missouri Botanical Garden; Plant Lust</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">15. Threadleaf Coreopsis</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Coreopsis verticillata</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to the eastern United States, this rhizomatous perennial grows 2–3 feet tall and 1.5–2 feet wide in dense, bushy clumps. Palmately divided, thread-like leaves create a fine texture, while yellow, daisy-like flowers bloom from June through September, attracting butterflies. Thrives in full sun on dry, well-drained, sandy, or rocky soils, and tolerates drought, heat, and poor soils. Deadheading encourages rebloom.
+Sources: Lady Bird Johnson Wildflower Center; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">16. Northern Bush-Honeysuckle</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Shrub</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Diervilla lonicera</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to Eastern North America, this fast-growing deciduous shrub reaches 2–4 feet tall and 3–5 feet wide with glossy green, ovate to oblong-lanceolate leaves that turn yellow to orange or red in fall. Tube-like yellow flowers bloom in June–July, attracting hummingbirds and butterflies. Easily grown in average, dry to medium moisture, well-drained soils in full sun to part shade. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">17. Purple Coneflower</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Echinacea purpurea</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to eastern and central North America, this coarse, rough-hairy perennial grows 2–5 feet tall with dark green, ovate to broad-lanceolate leaves. Daisy-like purplish-pink flowers bloom June to August atop stiff stems, attracting butterflies, hummingbirds, and seed-eating birds. Tolerant of drought, clay, and shallow rocky soils, it thrives in full sun to part shade and reblooms easily. Resistant to deer. Sources: Plant Lust, Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">18. Rattlesnake Master</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Eryngium yuccifolium</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description">Native to the tallgrass prairies of the eastern United States, this drought-tolerant perennial grows 4–5 feet tall and 2–3 feet wide, featuring blue-green, sword-like leaves edged with soft bristles and topped in summer by globe-shaped, greenish-white flowers. Low-maintenance and heat-tolerant, it attracts bees, butterflies, and other pollinators while adding bold texture to dry, sunny sites. Sources: Missouri Botanical Garden; Plant Lust</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">19. Hearts-a-Burstin'</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Shrub</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed</div>
+            </div>
+        </div>
+        <div class="scientific-name">Euonymus americanus</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description">Native to the eastern United States, this slow-growing deciduous shrub reaches 4-6 feet tall and wide with green stems and oblong leaves that turn orange-red in fall. Inconspicuous greenish-yellow flowers appear in May-June, followed by striking warty red fruits that split to reveal scarlet seeds. Tolerant of shade and well-drained soils, it attracts birds and naturalizes in woodland gardens. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">20. Hollow Joe Pye Weed</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Eutrochium fistulosum</div>
+        <div class="priority-rank priority-high">High</div>
+        <div class="description"> Native to eastern North America, this towering perennial grows 8–12 feet tall and 2–6 feet wide with hollow green stems and coarsely serrated, lance-shaped leaves in whorls of 4–7. Dusky pink, vanilla-scented flowers bloom mid-summer to early fall in large, domed clusters, attracting butterflies, while seeds persist into winter. Thrives in rich, moist soil with full to part sun and tolerates humidity and wet sites.
+Sources: Plant Lust; Missouri Botanical Garden</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">21. Fothergilla 'Mt Airy'</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Shrub</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Fothergilla major 'Mt Airy'</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to the southeastern United States, this fast-growing hybrid cultivar reaches 3-5 feet tall and wide with an upright habit, preferring moist, acidic, organically rich, well-drained soils in full sun to part shade. Produces profuse, fragrant, white bottlebrush-like flower spikes in early spring before dark green foliage emerges, with honey-scented fragrance from dense clusters of white stamens. Features excellent fall color in shades of yellow, orange and red-purple, and is deer resistant with no serious pest or disease problems. Sources: Missouri Botanical Garden; Plant Lust</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">22. Wild Strawberry</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Fragaria virginiana</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> This low-growing perennial spreads via runners to form dense colonies, producing white, five-petaled flowers in spring followed by small, red, edible fruits. Thrives in dry, well-drained soils with full sun to part shade. Attracts butterflies, serves as a larval host for gray hairstreaks, and provides food for birds. Ideal for ground cover, woodland edges, fields, prairies, and naturalized areas in Virginia and other eastern North American habitats. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">23. Shrubby St. John's Wort</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Shrub</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Hypericum prolificum</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to central and eastern North America, this rounded deciduous shrub reaches 2-6 feet tall and 5 feet wide, and tolerates a wide range of average, well-drained soils in full sun to mostly shade. It has 1-inch bright yellow flowers with numerous stamens, which provide a long bloom season. The unique bark exfoliates, and it is resistant to drought, erosion, and black walnuts. Sources: Plant Lust; Missouri Botanical Garden</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">24. 'Shamrock' Inkberry</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Shrub</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Ilex glabra 'Shamrock'</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description">This compact cultivar grows slowly to 3-4 feet tall and wide with a dense, rounded shape, glossy dark green evergreen leaves, and reduced suckering compared to the species. Prefers moist, acidic, well-drained soils in full sun to part shade and tolerates wet conditions. Produces inconspicuous greenish-white spring flowers followed by jet-black berry-like drupes (small fruits) that persist through winter. Offers excellent verticillium wilt resistance (fungal disease affecting plant vascular system), plus tolerance to air pollution, deer, and rabbits. Attracts birds with persistent winter berries and provides year-round evergreen interest. Sources: Missouri Botanical Garden; Plant Lust</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">25. Northern Blue Flag Iris</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Iris versicolor</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to Virginia, this clump-forming perennial reaches 2–2.5 feet tall and wide with narrow, arching-to-erect, sword-shaped blue-green leaves and 4-inch bluish-purple flowers in late spring, each with a central yellow blotch and white zone. Thrives in medium to wet soils, full sun to part shade, tolerates deer, and slowly spreads by tough rhizomes, attracting wetland pollinators. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">26. Dense Blazing Star</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Liatris spicata</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description">Native to the eastern United States, this tall, upright, clump-forming perennial reaches 2-4 feet tall and 0.75-1.5 feet wide with narrow, grass-like, medium green leaves. Prefers average to rich, medium, well-drained soils in full sun and performs better in moist soils than most other Liatris species while tolerating drought once established. Produces terminal spikes of sessile, rounded, fluffy, deep purple flower heads in July-August that bloom from top to bottom. Attracts hummingbirds, butterflies, and other pollinators with nectar-rich flowers while songbirds enjoy the small seeds, making it excellent for fresh cut or dried flower arrangements. Sources: Missouri Botanical Garden; Plant Lust </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">27. Coral Honeysuckle</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Vine</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Lonicera sempervirens</div>
+        <div class="priority-rank priority-high">High</div>
+        <div class="description"> Native to the southeastern United States, this vigorous twining vine reaches 10-15 feet tall and 3-6 feet wide with oval, bluish-green leaves that are glaucous (waxy coating) beneath. Prefers average, medium moisture, well-drained soils in full sun to part shade but flowers best in full sun. Produces large, trumpet-shaped flowers that are scarlet to orangish-red outside and yellowish inside in May-June, followed by ornamental red berries in late summer. Attracts hummingbirds, butterflies, and bees with nectar-rich blooms while birds enjoy the small red berries, making it an excellent non-invasive alternative to Japanese honeysuckle. Sources: Missouri Botanical Garden; Plant Lust </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">28. Wild Bergamot</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Monarda fistulosa</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Monarda fistulosa, or wild bergamot, is a North American native perennial herb, including Virginia, that grows in clumps 2–4 feet tall and 2–3 feet wide. It produces lavender, tubular flowers in dense globular heads from July to September, attracting bees, butterflies, and hummingbirds. Thriving in full sun to part shade with dry to medium, well-drained soils, it tolerates drought, poor soils, and deer, making it ideal for herb, native, or naturalized gardens. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">29. Eastern Prickly Pear</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Opuntia humifusa</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to the eastern and central United States, this clump-forming, semi-prostrate cactus reaches 0.5-1 foot tall and 1-1.5 feet wide with jointed, round-to-oval, flattened, succulent green pads covered in scattered spines and numerous tufts of bristles (glochids). Prefers dry, sandy or gravelly, well-drained soils in full sun and excels in poor, dry conditions with excellent drought tolerance. Produces showy bright yellow 2-3 inch diameter flowers, sometimes with reddish eyes, in June-July followed by pulpy, red fruits that ripen in late summer. Spreads by pads breaking off and rooting nearby, attracting bees and hummingbirds while offering excellent deer and rabbit resistance plus heat and humidity tolerance. Sources: Missouri Botanical Garden; Plant Lust</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">30. Golden Ragwort</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Packera aurea</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to eastern North America, this rhizomatous, spreading herbaceous perennial reaches 0.5-2.5 feet tall and 0.5-1.5 feet wide with basal clumps of long-stemmed, heart-shaped, toothed, dark green leaves often with purplish tinge beneath. Prefers average, medium to wet soils in full sun to part shade and blooms well even in shady locations with consistent moisture. Produces flat-topped clusters of yellow, daisy-like flowers atop sparsely-leaved stems in April. Naturalizes into large colonies and serves as one of the few larval food sources for northern metalmark butterflies while attracting other butterflies, bees, and insect pollinators. Sources: Missouri Botanical Garden; Plant Lust </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">31. Wild Quinine</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Parthenium integrifolium</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> This broadleaf, deciduous perennial grows 2–4' tall and 1–2' wide in full sun on clay, rocky, or well-drained soils. Producing clusters of white flowers in spring and summer, it attracts butterflies and beneficial insects. Drought-tolerant once established, it forms clumps over time and is ideal for native gardens, prairies, cutting gardens, or erosion control. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">32. Foxglove Beardtongue</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Winter to Early Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Penstemon digitalis</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description">Native to the eastern and southeastern United States, this clump-forming herbaceous perennial reaches 3-5 feet tall and 1.5-2 feet wide with elliptic basal leaves and lance-shaped to oblong stem leaves. Prefers average, dry to medium moisture, well-drained soil in full sun and tolerates drought, clay soil, and occasional inundation once established. Produces white, two-lipped, tubular flowers in panicles atop erect, rigid stems from April-June. Features a sterile stamen (staminode) that gives the genus its "beardtongue" common name. Attracts hummingbirds, butterflies, and other pollinators while offering excellent deer resistance and verticillium wilt resistance, making it ideal for cut flower arrangements. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">33. Moss Phlox</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Phlox subulata</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to eastern and central United States, this mat-forming groundcover grows 6 inches tall and up to 24 inches wide, with linear, awl-shaped leaves that stay partly green in winter. Blooms of red-purple, violet, pink, or white appear in mid-spring, attracting butterflies. Thrives in full sun with well-drained, medium-moisture soil, tolerates drought, deer, and erosion, and suits rock gardens, slopes, or borders. Sources: Missouri Botanical Garden; Plant Lust </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">34. Common Ninebark</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Shrub</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Physocarpus opulifolius</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to central and eastern North America, this upright, spreading deciduous shrub reaches 5-8 feet tall and 4-6 feet wide with ovate to rounded, usually 3-5 lobed dull green leaves. Prefers average, slightly acidic, dry to medium moisture, well-drained soil in full sun to part shade and tolerates a wide range of conditions including drought, clay, and wet soils. Produces small pink or white five-petaled flowers in dense, flat, rounded clusters in May-June followed by drooping clusters of reddish inflated seed capsules (fruits). Features attractive exfoliating bark (peeling bark) on mature branches that reveals multiple layers of reddish to light brown inner bark, providing winter interest while attracting bees and birds. Sources: Plant Lust; Missouri Botanical Garden</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">35. American Sycamore</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Tree</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Platanus occidentalis</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to the southeastern United States, this fast-growing deciduous tree reaches 75-100 feet tall and wide with a massive trunk diameter of 3-8 feet and rounded habit. Prefers rich, consistently moist, well-drained soils in full sun but tolerates light shade and wet conditions. Features distinctive exfoliating bark (peeling bark) that flakes off in irregular pieces to reveal creamy white inner bark, creating mottled patterns. Produces insignificant yellowish male and reddish female flowers in April followed by fuzzy brown spherical fruiting balls that persist into winter. Offers excellent verticillium wilt resistance and deer resistance while tolerating urban pollution. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">36. Hoary Mountain Mint</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Pycnanthemum incanum</div>
+        <div class="priority-rank priority-high">High</div>
+        <div class="description"> A hardy perennial reaching 2–4 ft tall with a 3–5 ft spread, this fragrant, spearmint-scented plant produces clusters of white to pale lavender flowers in summer. Thrives in full sun to part shade and well-drained soils. Attracts butterflies, bees, and beneficial insects. Drought, heat, and erosion tolerant, making it ideal for pollinator gardens, meadows, and naturalized landscapes. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">37. Virginia Mountain Mint</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Pycnanthemum virginianum</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to Virginia and the eastern United States, this perennial grows 2–3 feet tall with 1–2 feet of spread. White summer flowers attract bees, butterflies, and other beneficial insects, supporting pollinator gardens. It tolerates mostly sunny conditions and a variety of soils, from clay to well-drained, and withstands occasional moisture. Fragrant foliage adds interest while resisting deer and rabbits. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">38. Smooth Sumac</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Shrub</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Rhus glabra</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to the U.S. and southern Canada, this deciduous shrub or tree grows 8-20 feet tall and wide, forming thickets. Tolerant of a wide range of soils, it prefers dry to medium, well-drained soil in full sun to part shade. Its showy yellow-green flowers bloom from June to August, followed by showy red berries that attract birds and other wildlife. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">39. Carolina Rose</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Shrub</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Rosa carolina</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to eastern and central North America, this deciduous shrub reaches 3-6 feet tall and spreads 5-10 feet wide by suckers to form colonies. Prefers average, medium to wet, well-drained soil in full sun and adapts to both dry and wet conditions. Produces single, fragrant, clear pink flowers (to 2.5 inches across) in May followed by bright red hips (fruits) in late summer that persist into fall. Features smooth, dark green foliage with attractive yellow-orange-red autumn color. Attracts birds with nutritious hips and butterflies with nectar-rich flowers, while offering better natural disease resistance than most hybrid roses.Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">40. Brown Eyed Susan</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Annual</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Rudbeckia triloba</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to the central-eastern United States, this densely-branched biennial or short-lived perennial reaches 2-4 feet tall and wide with thin, rough-textured leaves, some three-lobed. Prefers average, moist, well-drained soils in full sun but tolerates light shade, heat, and some drought. Produces profuse masses of small daisy-like flowers with yellow rays and brown-purple center disks from July through October. Self-seeds freely to naturalize in the garden, providing long-lasting blooms. Attracts butterflies while offering excellent deer resistance and serves as an outstanding cut flower.Sources: Missouri Botanical Garden; Plant Lust</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">41. Hairy Ruellia</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Ruellia humilis</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description">Native to eastern and central United States, this low-growing, herbaceous perennial reaches 1–2 feet tall and 1.5–2 feet wide with hairy, oblong to lance-shaped leaves. Prefers average, dry to medium, well-drained soils in full sun to part shade and tolerates drought once established. Produces violet to lavender, trumpet-shaped flowers from May through October, attracting butterflies and hummingbirds. Sources: Missouri Botanical Garden; Plant Lust</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">42. American Elderberry</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Shrub</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Partial Sunlight</div>
+                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Larval Host</div>
+            </div>
+        </div>
+        <div class="scientific-name">Sambucus canadensis</div>
+        <div class="priority-rank priority-high">High</div>
+        <div class="description"> Native to eastern North America, this fast-growing deciduous shrub reaches 5-12 feet tall and wide with a somewhat sprawling, suckering habit. Prefers medium to wet, well-drained soils in full sun to part shade and tolerates clay soil and wet conditions. Produces large flat-topped clusters of tiny, lemon-scented white flowers in June followed by shiny black elderberry fruits (drupes) in late summer. Spreads by root suckers to form colonies, providing excellent nesting cover for songbirds. Attracts bees and butterflies with nectar-rich flowers, while the nutritious black fruits attract numerous bird species. Sources: Missouri Botanical Garden; Plant Lust </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">43. Little Bluestem</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Graminoid</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Schizachyrium scoparium</div>
+        <div class="priority-rank priority-high">High</div>
+        <div class="description"> Native to eastern North America, this slow-growing perennial grass forms upright, clumping blue-green foliage 2–4 feet tall and 1–2 feet wide, turning bronze-orange in fall. Narrow leaves support 3–5-foot flowering stems with purplish-bronze blooms that persist into winter, providing seed for birds. Tolerant of drought, deer, pollution, and varied soils, it excels in prairies, meadows, borders, and naturalized areas. Sources: Missouri Botanical Garden; Plant Lust </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">44. American Senna</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar, Larval Host</div>
+            </div>
+        </div>
+        <div class="scientific-name">Senna hebecarpa</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description">Native to the East Coast, this sturdy shrub-like perennial reaches 4-6 feet tall and 2-3 feet wide with feathery compound leaves. Prefers moist to average, well-drained soil in full sun to part shade and tolerates periodic flooding. Produces clusters of bright yellow pea-type flowers in July and August followed by chocolate brown seedpods (legumes). Serves as larval host for cloudless sulphur butterflies and attracts hummingbirds and other butterflies, while birds favor the seedpods. Sources: Lady Bird Johnson Wildflower Center; Plant Lust </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">45. Narrow Blue-Eyed Grass</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Spring to Early Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Sisyrinchium angustifolium</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to Virginia, this clump-forming perennial reaches 12–18 inches tall and 9–12 inches wide with narrow, deep blue-green, grass-like foliage and ¾-inch blue, purple, and yellow spring blooms. Adaptable to sun or mostly shade, average to well-drained soil, and occasional watering, it is drought tolerant once established, deer resistant, and verticillium wilt resistant, attracting small pollinators. Sources: Plant Lust; Missouri Botanical Garden</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">46. Gray Goldenrod</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Solidago nemoralis</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to Canada and the United States, this rhizomatous, upright herbaceous perennial reaches 0.5-2 feet tall and 0.5-2 feet wide with clumps of gray-green stems densely covered with short white hairs. Prefers average, dry to medium, slightly acidic, well-drained soils in full sun and excels in rocky, sandy soils with excellent drought tolerance. Produces narrow, often downward-arching, one-sided, bright yellow flower plumes from August-September with flowerheads primarily located on the upper side of each panicle. Spreads by rhizomes (underground stems) and self-seeding to colonize areas, attracting butterflies and bees while providing nectar for pollinators and offering excellent deer resistance. Sources: Missouri Botanical Garden; Lady Bird Johnson Wildflower Center </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">47. Stiff Goldenrod</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Solidago rigida</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to the eastern and northeastern United States, this perennial grows 3-5 feet tall and 1-3 feet wide. It is one of the more well-behaved goldenrods, holding its flat golden heads on stiff stems. The showy, bright yellow flowers bloom from August to September, attracting bees, butterflies, and birds. It thrives in average, clay, and well-drained soils and is resistant to deer. Sources: Plant Lust; Missouri Botanical Garden</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">48. Indiangrass</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Graminoid</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Sorghastrum nutans</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to eastern and central United States, this perennial grass forms 2–3-foot-wide clumps with upright blue-green foliage reaching 3–7 feet tall. Silky, light-brown flower panicles with yellow stamens bloom late summer to fall, attracting bees, songbirds, and small mammals. Foliage turns orange-yellow in fall and persists through winter. Thrives in dry to medium, well-drained soils with full sun and tolerates drought, erosion, and poor soils.
+Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">49. White Meadowsweet</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Shrub</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Summer</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Wet</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Spiraea alba</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> Native to Virginia and eastern North America, this upright, deciduous shrub grows 3–4 feet tall and wide. In summer, it produces cone-shaped clusters of white flowers that attract butterflies. Preferring full sun and consistently moist soils, it thrives along streams, wetlands, and low spots. Narrow, toothed green leaves add texture, while low-maintenance growth and deer tolerance make it ideal for rain gardens, borders, or naturalized landscapes. Sources: Plant Lust; Missouri Botanical Garden </div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">50. Emerald Green Arborvitae</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Tree</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Spring</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Moist</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Shelter/Nesting Material</div>
+            </div>
+        </div>
+        <div class="scientific-name">Thuja occidentalis 'Smaragd'</div>
+        <div class="priority-rank priority-low">Low</div>
+        <div class="description"> This semi-dwarf cultivar grows 12-14 feet tall and 3-4 feet wide with a compact, narrowly pyramidal habit and glossy bright green, scale-like foliage in flat sprays that retains its rich color through winter. Prefers average, medium moisture, well-drained soils in full sun to part shade but appreciates light afternoon shade in hot climates. Features aromatic evergreen foliage and urn-shaped cones that mature to reddish-brown in autumn. Offers excellent verticillium wilt resistance and air pollution tolerance while attracting birds and providing year-round interest, making it ideal for hedging with minimal maintenance requirements. Sources: Plant Lust; Missouri Botanical Garden</div>
+    </div>
+
+    <div class="species-grid">
+        <div class="common-name-section">
+            <div class="common-name">51. Upland Ironweed</div>
+            <div class="plant-details">
+                <div class="detail-line"><strong>Type:</strong> Forb</div>
+                <div class="detail-line"><strong>Life Cycle:</strong> Perennial</div>
+                <div class="detail-line"><strong>Bloom Time:</strong> Late Summer to Early Fall</div>
+                <div class="detail-line"><strong>Sun:</strong> Full Sun</div>
+                <div class="detail-line"><strong>Moisture:</strong> Dry</div>
+                <div class="detail-line"><strong>Ecological Resources:</strong> Fruit/Nut/Seed, Pollen, Nectar</div>
+            </div>
+        </div>
+        <div class="scientific-name">Vernonia glauca</div>
+        <div class="priority-rank priority-medium">Medium</div>
+        <div class="description"> Native to Virginia, this broadleaf perennial grows 3-5 feet tall and 2-4 feet wide in rich, well-drained soil with sun to partial shade. Summer brings purple blooms that attract bees, butterflies, and beneficial insects, while its sturdy clumping stems provide deer resistance. Fruits are cypselae, supporting local wildlife. Sources: Plant Lust; Lady Bird Johnson Wildflower Center</div>
+    </div>
+
 </body>
 </html>
